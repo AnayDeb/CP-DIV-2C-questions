@@ -31,6 +31,7 @@ bool isPrime(int n) {
 // ===== SOLVE FUNCTION =====
 void solve() {
 	int n; cin>>n;
+	
 	vi a(n+1),b(n+1);
 	rep(i,1,n+1) cin>>a[i];
 	rep(i,1,n+1) cin>>b[i];
